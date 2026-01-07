@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign up</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is Tienre Sounds website. Music production, collaboration, quality uploads">
+  <meta name="keywords" content="Music">
+  <meta name="author" content="Tienre Sounds">
+</head>
+<body>
+  <form id="signup.form" method="post">
+
+    <fieldset id="field" class="form-field">
+
+      <legend id="legend" class="form-legend">Sign up</legend> 
+
+      <label for="firstname" id="firstname-label" class="form-label">First Name:</label>
+      <input 
+        type="text" 
+        id="firstname" 
+        class="form-input"
+        name="firstname" 
+        placeholder="Alex" 
+        size="13" 
+        minlength="3" 
+        maxlength="15"
+        title="First Name" 
+        required>
+
+      <label for="lastname" id="lastname-label" class="form-label">Last Name:</label>
+      <input 
+        type="text" 
+        id="lastname" 
+        class="form-input"
+        name="lastname" 
+        placeholder="Smart" 
+        size="13" 
+        minlength="3" 
+        maxlength="15" 
+        title="Last Name"
+        required><hr>
+
+      <input type="radio" id="male" class="form-input" name="gender" title="Male" required>
+      <label for="male" id="male-label" class="form-label">Male</label>
+
+      <input type="radio" id="female" class="form-input" name="gender" title="Female" required>
+      <label for="female" id="female-label" class="form-label">Female</label> /
+
+      <label for="dob" id="dob-label" class="form-label">Date Of Birth:</label>
+      <input id="dob" class="form-input" name="dob" type="date" title="Date Of Birth" required><hr>  
+
+      <select id="select-coutry" class="form-select" name="coutry" title="Select a country">
+        <option id="country-select" class="form-option" value="">--- Select a country ---</option>
+      </select>
+
+      <select id="select-state" class="form-select" name="state" title="Select a state">
+        <option id="state-select" class="form-option" value="">--- Select a state ---</option>
+      </select>
+
+      <select id="select-city" class="form-select" name="city" title="Select a city">
+        <option id="city-select" class="form-option" value="">--- Selected a city ---</option>
+      </select>
+
+      <label for="address" id="address-label" class="form-label">Address:</label>
+      <input 
+        type="text" 
+        id="address"
+        class="form-input"
+        name="address" 
+        placeholder="address" 
+        size="55" 
+        title="Address"
+        required><hr>
+
+      <label for="tel" id="tel-label" class="form-label">Phone Number:</label>
+      <input 
+        type="tel" 
+        id="tel" 
+        class="form-input"
+        name="tel" 
+        placeholder="123-456-7890" 
+        size="10" 
+        minlength="10" 
+        maxlength="11"
+        title="Phone Number" 
+        required> <br>
+
+      <label for="email" id="email-label" class="form-label">Email Address:</label>
+      <input 
+        type="email" 
+        id="email" 
+        class="form-input"
+        name="email" 
+        placeholder="user@example.com" 
+        size="17" 
+        minlength="13" 
+        maxlength="60" 
+        title="Email Address"
+        required> <br>
+
+      <label for="password" id="password-label" class="form-label">Password:</label>
+      <input 
+        type="password" 
+        id="password" 
+        class="form-input"
+        name="password" 
+        placeholder="***************" 
+        size="10" 
+        minlength="8" 
+        maxlength="15" 
+        title="Password"
+        required>
+
+    </fieldset>
+
+    <button type="submit" id="submit-button" class="form-button" title="Sign up">Sign up</button>
+
+  </form> 
+
+  <footer id="footer">
+    <a href="privacy.html" title="Privacy policy">Privacy policy</a>
+  </footer>
+  
+</body>
+</html>

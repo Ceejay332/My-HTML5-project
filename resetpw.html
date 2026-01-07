@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reset password</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is Tienre Sounds website. Music production, collaboration, quality uploads">
+  <meta name="keywords" content="Music">
+  <meta name="author" content="Tienre Sounds">
+</head>
+<body>
+
+  <form id="resetpassword-form" method="post">
+
+    <fieldset id="field" class="form-field">
+
+      <legend id="legend" class="form-legend">Reset password</legend>
+
+      <label for="oldpassword" id="oldpassword-label" class="form-label">Old paasword:</label>
+      <input 
+        type="password" 
+        id="oldpassword"
+        class="form-input"
+        name="oldpassword" 
+        placeholder="old password" 
+        minlength="8" 
+        maxlength="20" 
+        title="Old paasword"
+        required><br>
+
+      <label for="newpassword" id="newpassword-label" class="form-label">New Password:</label>
+      <input 
+        type="password" 
+        id="newpassword" 
+        class="form-input" 
+        name="newpassword" 
+        placeholder="new password" 
+        minlength="8" 
+        maxlength="20"
+        title="New Password" 
+        required> <br>
+
+      <label for="confirmpassword" id="confirmpassword-label" class="form-label">Confirm Password:</label>
+      <input 
+        type="password" 
+        id="confirmpassword"
+        class="form-input"
+        name="confirmpassword" 
+        placeholder="confirm password" 
+        minlength="8" 
+        maxlength="20" 
+        title="Confirm Password"
+        required>
+
+    </fieldset>
+
+    <button type="submit" title="Reset password" id="resetpassword-button" class="form-button">Reset password</button>
+  </form>
+  
+  <footer id="footer">
+    <a href="privacy.html" title="Privacy policy">Privacy policy</a>
+  </footer>
+  
+</body>
+</html>
