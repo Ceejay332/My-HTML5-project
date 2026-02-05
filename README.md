@@ -6,7 +6,7 @@ A responsive HTML-only website for Tienre Sounds, featuring a navigation bar, au
 
 ## Live Preview
 
-Check out this live preview here: [HTML5 project](https://ceejay332.github.io/My-HTML5-project/)
+Check out this live preview here: [My-HTML5-project](https://ceejay332.github.io/My-HTML5-project/)
 
 🔹 Features
 
