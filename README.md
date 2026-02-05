@@ -4,6 +4,10 @@
 
 A responsive HTML-only website for Tienre Sounds, featuring a navigation bar, authentication pages, and informational pages. Built with clean, semantic HTML for easy readability and maintainability.
 
+## Live Preview
+
+Check out this live preview here: [HTML5 project](https://ceejay332.github.io/My-HTML5-project/)
+
 🔹 Features
 
 • Navigation Bar: Access to Home, Contact, and Location pages
